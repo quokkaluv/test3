@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포켓몬 도감 만들기</title>
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
-    <h1>나만의 포켓몬도감만들기</h1>
+    <h1>전하진</h1>
     <p>피카츄, 파이리, 꼬부기를 구별해서 이에 대한 설명을 보여주는 웹 앱</p>
 </body>
 </html>
+https://teachablemachine.withgoogle.com/models/19hkcRo9q/
+복사 
+
+
 <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -22,7 +27,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/19hkcRo9q/";
 
     let model, webcam, labelContainer, maxPredictions;
 
